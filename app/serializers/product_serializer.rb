@@ -1,8 +1,8 @@
 class ProductSerializer
   def self.serialize(product)
-    # binding.pry
+
 # name, price, inventory and description) to JSON.
-    # start with the open brace to create a valid JSON object
+# start with the open brace to create a valid JSON object
     serialized_product = '{'
 
     serialized_product += ('"id": ' + product.id.to_s + ', ')
